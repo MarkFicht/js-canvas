@@ -5,6 +5,49 @@
     background-color: black;
 }
 
+#container {
+    display: grid;
+    height: calc(100vh - 25px);
+    row-gap: 10px;
+    grid-template-rows: 30px 1fr;
+    margin-top: 25px;
+}
+
+#canvas-settings {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > button {
+        border: 1px solid white;
+        height: 20px;
+        width: 80px;
+        color: white;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+        transition: .3s all;
+
+        &:hover {
+            background-color: gray;
+        }
+
+        &:focus {
+            border: 1px solid gray;
+        }
+
+        &:active {
+            background-color: tomato;
+        }
+    }
+}
+
+#canvas-container {
+    position: relative;
+    height: 420px;
+}
+
 #canvas {
     border: 2px solid white;
     position: absolute;
