@@ -1,6 +1,6 @@
 # JS Canvas
 
-Simple repo created for show beautiful rain effect on the picte
+Simple repo created for show beautiful rain effect on the picture
 
 ## DEMO
 
